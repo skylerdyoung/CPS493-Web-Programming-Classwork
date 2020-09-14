@@ -1,4 +1,4 @@
-	![My Photo](web-programming-photo.jpg)
+![My Photo](web-programming-photo.jpg)
 	
 	My name is Skyler Young. I am a Computer Science student in my Senior year. 
 	Courses I’ve taken include Software Engineering, Assembly Language & Computer Architecture, Data Structures, and Embedded Linux.
