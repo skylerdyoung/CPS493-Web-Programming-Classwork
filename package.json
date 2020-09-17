@@ -1,10 +1,10 @@
 {
-    "name": "2020fall",
+    "name": "CPS493-Web-Programming-Classwork",
     "scripts": {
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/jewpaltz/2020Fall.git"
+      "url": "git+https://github.com/skylerdyoung/CPS493-Web-Programming-Classwork.git"
     },
     "license": "ISC"
 }
