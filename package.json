@@ -1,12 +1,23 @@
 {
-    "name": "CPS493-Web-Programming-Classwork",
-    "scripts": {},
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/skylerdyoung/CPS493-Web-Programming-Classwork.git"
-    },
-    "license": "ISC",
-    "dependencies": {
-        "nodemon": "^2.0.4"
-    }
+  "name": "cps493-web-programming-classwork",
+  "scripts": {
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skylerdyoung/CPS493-Web-Programming-Classwork.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "description": "",
+  "bugs": {
+    "url": "https://github.com/skylerdyoung/CPS493-Web-Programming-Classwork/issues"
+  },
+  "homepage": "https://github.com/skylerdyoung/CPS493-Web-Programming-Classwork#readme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": ""
 }
