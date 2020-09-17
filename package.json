@@ -1,10 +1,12 @@
 {
     "name": "CPS493-Web-Programming-Classwork",
-    "scripts": {
-    },
+    "scripts": {},
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/skylerdyoung/CPS493-Web-Programming-Classwork.git"
+        "type": "git",
+        "url": "git+https://github.com/skylerdyoung/CPS493-Web-Programming-Classwork.git"
     },
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "nodemon": "^2.0.4"
+    }
 }
