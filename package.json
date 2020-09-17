@@ -1,7 +1,7 @@
 {
   "name": "cps493-web-programming-classwork",
   "scripts": {
-    "start": "nodemon server/index.js"
+    "start": "nodemon --watch server server/index.js"
   },
   "repository": {
     "type": "git",
@@ -9,7 +9,6 @@
   },
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^2.0.4",
     "express": "4.17.1"
   },
   "description": "",
@@ -19,6 +18,8 @@
   "homepage": "https://github.com/skylerdyoung/CPS493-Web-Programming-Classwork#readme",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
   "author": ""
 }
