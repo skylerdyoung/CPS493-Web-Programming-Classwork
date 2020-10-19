@@ -1,10 +1,13 @@
 const data = [{name: 'John', age: 43}, { name: 'Smith', age: 78}]
 
-function getAll(){
+async function getAll(){
+    //throw { status: 501, message: "This is a fake error"}
+    //await Promise.resolve()
+    console.log("Called Get All")
     return data;
 }
 
-function add(name,age){
+async function add(name,age){
     data.push({name, age});
 }
 
