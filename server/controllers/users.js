@@ -18,5 +18,10 @@ router.get('/', (req, res, next) => {
         res.send( newUser);
     }).catch(next)
 })
+.get('/rand', (req, res, next) => {
+   users.rand()
+   .then(someVal => res.send({someVal}))
+   .catch(next);
+})
 
 module.exports = router;
