@@ -1,10 +1,6 @@
-/*
+/* B"H
     The file for providing the connections and mySql functionality to the rest of the project
-
-    INSERT INTO `Users` (`id`, `created_at`, `update_at`, `FirstName`, `LastName`, `DOB`, `Password`, `User_Type`) VALUES (NULL, NOW(), CURRENT_TIMESTAMP, 'Skyler', 'Young', '1995-05-07 00:00:00', NULL, '5'), (NULL, NOW(), CURRENT_TIMESTAMP, 'Donald', ' Trump', '2020-10-01 00:00:00', NULL, '6');
-
 */
-
 const mysql = require("mysql");
 
 const pool = mysql.createPool({
