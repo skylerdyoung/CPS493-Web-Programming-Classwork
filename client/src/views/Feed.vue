@@ -19,7 +19,7 @@
                         <figure v-for="p in fbPics" :key="p.id" class="image is-64x64" @click.prevent="add(p)">
                             <img :src="p.picture" alt="" />
                         </figure>
-                    </p>
+                  
                 </div>
 
                 <Post v-for=" (x, i) in posts " 
