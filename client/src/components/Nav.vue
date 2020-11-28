@@ -56,7 +56,7 @@
         <LoginBadge />
       </div>
     </div>
-  </div>
+
 </nav>
 
 
